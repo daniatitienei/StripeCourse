@@ -1,4 +1,4 @@
-package com.atitienei_daniel.stripecourse
+package com.atitienei_daniel.stripecourse.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,9 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.atitienei_daniel.stripecourse.ui.theme.StripeCourseTheme
+import com.atitienei_daniel.stripecourse.BuildConfig
+import com.atitienei_daniel.stripecourse.presentation.ui.theme.StripeCourseTheme
+import dagger.hilt.android.AndroidEntryPoint
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

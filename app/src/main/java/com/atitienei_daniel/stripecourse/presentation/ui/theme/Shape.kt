@@ -1,4 +1,4 @@
-package com.atitienei_daniel.stripecourse.ui.theme
+package com.atitienei_daniel.stripecourse.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
